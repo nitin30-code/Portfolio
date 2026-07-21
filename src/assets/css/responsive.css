@@ -1,0 +1,5 @@
+@media (min-width:1440px){
+    .container{
+        min-width: 1650px;
+    }
+}

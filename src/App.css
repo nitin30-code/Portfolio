@@ -1,0 +1,58 @@
+
+
+/* Basic Reboot / Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.5;
+  font-family: Arial, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+/* Basic Reboot / Reset CSS */
+
+/* Common CSS */
+:root{
+  --color-0: #171924;
+  --color-1: #0B0B0B;
+  --color-2: #013893;
+  --color-3: #9A2035;
+}
+body{
+  font-family: "Lora", serif;
+  font-size:20px;
+  font-weight:400;
+  line-height:1.9;
+}
+/* Common CSS */
+
+
+.card{
+    transition: .3s ease;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    border-color: #8b5cf6 !important;
+    box-shadow: 0 0 20px rgba(139,92,246,.4);
+}
+.projects-section{
+  background-color:#0f172a;
+}
+
