@@ -40,19 +40,105 @@ body{
   font-weight:400;
   line-height:1.9;
 }
+.water-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.section-dots {
+  position: fixed;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  z-index: 999;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1.5px solid #e3b341;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.dot:hover {
+  transform: scale(1.2);
+}
+
+.dot.active {
+  background: #e3b341;
+  transform: scale(1.3);
+}
+.vanta-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+section {
+  scroll-margin-top: 100px;
+}
+.btn-git-project {
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 26px;
+  border-radius: 6px;
+  border: 1px solid #6fa8dc;
+  color: #6fa8dc;
+  background: transparent;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 14px;
+  animation: glowPulseBlue 2s ease-in-out infinite;
+}
+
+.btn-git-project::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -75%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(120deg, transparent, rgba(111, 168, 220, 0.5), transparent);
+  transform: skewX(-25deg);
+  animation: sweep 2.5s ease-in-out infinite;
+}
+
+.btn-git-project:hover {
+  background: #0d1117;
+}
+
+@keyframes sweep {
+  0% { left: -75%; }
+  60% { left: 130%; }
+  100% { left: 130%; }
+}
+
+@keyframes glowPulseBlue {
+  0%, 100% {
+    box-shadow: 0 0 6px rgba(111,168,220,0.3);
+  }
+  50% {
+    box-shadow: 0 0 16px rgba(111,168,220,0.6);
+  }
+}
 /* Common CSS */
 
 
-.card{
-    transition: .3s ease;
-}
 
-.card:hover{
-    transform: translateY(-10px);
-    border-color: #8b5cf6 !important;
-    box-shadow: 0 0 20px rgba(139,92,246,.4);
-}
-.projects-section{
-  background-color:#0f172a;
-}
 
+
+.about-section,.skills-section,.education-section,.experience-section,.projects-section,.contact-section{
+  padding-top: 0;
+}

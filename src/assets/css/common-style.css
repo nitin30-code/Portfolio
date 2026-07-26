@@ -35,7 +35,7 @@
 
 .hero {
   min-height: 90vh;
-  background: #0f172a;
+  /* background: #0f172a; */
   color: white;
   display: flex;
   align-items: center;
@@ -115,7 +115,7 @@
 }
 
 .about-section {
-  background: #0f172a;
+  /* background: #0f172a; */
   padding: 100px 0;
   color: white;
 }
@@ -163,7 +163,7 @@
 }
 .skills-section {
   padding: 100px 0;
-  background: #0f172a;
+  /* background: #0f172a; */
   color: white;
 }
 
@@ -214,7 +214,7 @@
 }
 .education-section {
   padding: 100px 0;
-  background: #0f172a;
+  /* background: #0f172a; */
   position: relative;
   overflow: hidden;
 }
@@ -256,7 +256,7 @@
   top: 0;
   width: 3px;
   height: 100%;
-  background: #8b5cf6;
+  background: #e3b341;
 }
 
 .education-card {
@@ -283,7 +283,7 @@
   top: 40px;
   width: 16px;
   height: 16px;
-  background: #8b5cf6;
+  background: #e3b341;
   border-radius: 50%;
   border: 3px solid #0f172a;
 }
@@ -315,7 +315,7 @@
 
 .experience-section {
   padding: 100px 0;
-  background: #0f172a;
+  /* background: #0f172a; */
 }
 
 .section-heading {
@@ -355,7 +355,7 @@
   top: 0;
   width: 3px;
   height: 100%;
-  background: #8b5cf6;
+  background: #e3b341;
 }
 
 .experience-card {
@@ -381,7 +381,7 @@
   top: 35px;
   width: 18px;
   height: 18px;
-  background: #8b5cf6;
+  background: #e3b341;
   border-radius: 50%;
   border: 4px solid #0f172a;
 }

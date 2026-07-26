@@ -3,7 +3,7 @@ const experience = [
   {
     company: "42Works",
     role: "Web Trainee",
-    duration: "Industrial Training",
+    duration: "7 Months",
     description:
       "Worked on multiple live web projects in a real-world development environment. Implemented client feedback and resolved issues using BugHerd. Improved website performance, usability, and responsiveness through debugging and fixes."
   },

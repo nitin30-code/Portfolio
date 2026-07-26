@@ -3,7 +3,7 @@ import React from 'react'
 export default function Projects() {
  return (
 <div className="projects-section">
-  <section id="projects" className="container py-5">
+  <section id="projects" className="container py-lg-5">
 
     <div className="text-center mb-5">
       <h6 className="text-primary fw-bold">MY PROJECTS</h6>
@@ -32,7 +32,7 @@ export default function Projects() {
           </div>
 
           <a
-            href="https://github.com/YourUsername"
+            href="https://github.com/nitin30-code/react-authentication"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-light mt-auto"

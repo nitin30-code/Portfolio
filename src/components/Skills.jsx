@@ -1,5 +1,22 @@
-import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaPhp, FaGitAlt } from "react-icons/fa";
-import { SiMysql, SiBootstrap } from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaReact,
+  FaWordpress,
+  FaPhp,
+  FaGithub,
+  FaNodeJs,
+} from "react-icons/fa";
+
+import {
+  SiMysql,
+  SiBootstrap,
+  SiExpress,
+  SiMongodb,
+  SiPostman,
+  SiGit,
+} from "react-icons/si";
 
 const skills = [
   { icon: <FaHtml5 />, name: "HTML5" },
@@ -10,7 +27,12 @@ const skills = [
   { icon: <SiMysql />, name: "MySQL" },
   { icon: <FaWordpress />, name: "WordPress" },
   { icon: <SiBootstrap />, name: "Bootstrap" },
-  { icon: <FaGitAlt />, name: "Git" },
+  { icon: <FaGithub />, name: "GitHub" },
+  { icon: <SiGit />, name: "Git" },
+  { icon: <FaNodeJs />, name: "Node.js" },
+  { icon: <SiExpress />, name: "Express.js" },
+  { icon: <SiMongodb />, name: "MongoDB" },
+  { icon: <SiPostman />, name: "Postman" },
 ];
 
 export default function Skills() {
@@ -21,11 +43,7 @@ export default function Skills() {
 
           <div className="col-lg-4">
             <span className="section-tag">My Skills</span>
-
-            <h2>
-              Technologies I Work With
-            </h2>
-
+            <h2>Technologies I Work With</h2>
             <p>
               I build responsive and modern web applications
               using frontend and backend technologies.
@@ -36,10 +54,7 @@ export default function Skills() {
             <div className="skills-grid">
               {skills.map((skill, index) => (
                 <div className="skill-card" key={index}>
-                  <div className="skill-icon">
-                    {skill.icon}
-                  </div>
-
+                  <div className="skill-icon">{skill.icon}</div>
                   <h4>{skill.name}</h4>
                 </div>
               ))}

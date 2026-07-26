@@ -3,3 +3,68 @@
         min-width: 1650px;
     }
 }
+@media(max-width:991px){
+    .section-dots{
+        display: none;
+    }
+    .hero-description{
+        max-width: unset;
+    }
+    .hero-content{
+        margin-bottom: 40px;
+    }
+    .about-image{
+        display: flex;
+        justify-content: center;
+    }
+    .skills-section .col-lg-4{
+        text-align: center;
+    }
+    .hero ,.about-section,.skills-section,.education-section,.experience-section,.projects-section,.contact-section{
+    padding: 70px 0;
+    }
+    .about-section,.skills-section,.education-section,.experience-section,.projects-section,.contact-section{
+    padding-top: 0;
+    }
+    .experience-card,.education-card{
+        margin-bottom: 0;
+    }
+    .section-heading{
+        margin-bottom: 40px;
+    }
+    .contact-section{
+        padding-bottom: 0;
+    }
+}
+
+
+@media (max-width: 567px) {
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    height: 100vh;
+    width: 220px;
+    background: #12181f;
+    border-left: 1px solid #232b36;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 24px;
+    padding: 24px;
+    transition: right 0.3s ease;
+    z-index: 15;
+  }
+
+  .nav-links.open {
+    right: 0;
+  }
+
+  .nav-links .nav-item a {
+    font-size: 16px;
+  }
+}
