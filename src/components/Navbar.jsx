@@ -19,9 +19,9 @@ export default function Navbar() {
             </div>
           </div>
 
-          <div className="col-9">
+          <div className="col-9 col-9-div">
             <button
-              className={`menu-toggle ${isOpen ? "active" : ""}`}
+              className={`menu-toggle ${isOpen ? "active" : ""} menu-toggle-custom`}
               onClick={toggleMenu}
               aria-label="Toggle menu"
             >
@@ -30,7 +30,7 @@ export default function Navbar() {
               <span></span>
             </button>
 
-            <ul className={`nav-links d-flex justify-content-end ${isOpen ? "open" : ""}`}>
+            <ul className={`nav-links justify-content-end ${isOpen ? "open" : ""}`}>
               <li className="nav-item">
                 <a href="#home" onClick={closeMenu}>home</a>
               </li>

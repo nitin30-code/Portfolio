@@ -42,13 +42,16 @@
   .menu-toggle {
     display: flex;
   }
-
+    .col-9-div{
+        display: flex;
+        justify-content: flex-end;
+    }
   .nav-links {
     position: fixed;
     top: 0;
     right: -100%;
     height: 100vh;
-    width: 220px;
+    width: 100%;
     background: #12181f;
     border-left: 1px solid #232b36;
     flex-direction: column;
