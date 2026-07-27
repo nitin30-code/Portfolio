@@ -30,7 +30,7 @@ export default function Navbar() {
               <span></span>
             </button>
 
-            <ul className={`nav-links justify-content-end ${isOpen ? "open" : ""}`}>
+            <ul className={`nav-links  justify-content-end ${isOpen ? "open" : ""}`}>
               <li className="nav-item">
                 <a href="#home" onClick={closeMenu}>home</a>
               </li>
