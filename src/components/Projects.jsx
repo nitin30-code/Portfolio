@@ -31,14 +31,24 @@ export default function Projects() {
             <span className="badge bg-success">LocalStorage</span>
           </div>
 
-          <a
-            href="https://github.com/nitin30-code/react-authentication"
-            target="_blank"
-            rel="noreferrer"
-            className="btn btn-outline-light mt-auto"
-          >
-            View on GitHub →
-          </a>
+          <div className="d-flex gap-2 mt-auto">
+              <a
+              href="https://login-register-demo-five.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-live"
+            >
+              Live Preview
+            </a>
+            <a
+              href="https://github.com/nitin30-code/react-authentication"
+              target="_blank"
+              rel="noreferrer"
+              className="btn btn-outline-light"
+            >
+              GitHub →
+            </a>
+          </div>
         </div>
       </div>
 
@@ -58,7 +68,7 @@ export default function Projects() {
           </div>
 
           <a
-            href="https://github.com/YourUsername"
+            href="https://github.com/nitin30-code/Portfolio/"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-light mt-auto"
