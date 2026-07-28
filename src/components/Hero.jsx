@@ -25,7 +25,12 @@ function Hero() {
               </p>
 
               <div className="hero-buttons fade-up d5">
-                <button className="btn-primary">Download Resume</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => window.open("/resume/Nitin_Kumar_Resume.pdf", "_blank")}
+                >
+                  Download Resume
+                </button>
                 <button className="btn-secondary">Contact Me</button>
                 <a
                   href="https://github.com/YourUsername"
