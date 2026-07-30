@@ -94,7 +94,7 @@ export default function Projects() {
           </div>
 
           <a
-            href="https://github.com/YourUsername"
+            href="https://github.com/nitin30-code/crud-rest-api-local"
             target="_blank"
             rel="noreferrer"
             className="btn btn-outline-light mt-auto"

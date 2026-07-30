@@ -485,8 +485,8 @@ body {
 }
 
 .btn-live:hover {
-  background: #6fa8dc;
-  color: #0d1117;
+  background: #0b5ed7;
+  color: #fff;
 }
 
 .projects-section .d-flex.gap-2 .btn-outline-light {

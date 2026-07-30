@@ -31,9 +31,9 @@ function Hero() {
                 >
                   Download Resume
                 </button>
-                <button className="btn-secondary">Contact Me</button>
+                {/* <button className="btn-secondary">Contact Me</button> */}
                 <a
-                  href="https://github.com/YourUsername"
+                  href="https://github.com/nitin30-code/"
                   target="_blank"
                   rel="noreferrer"
                   className="btn-secondary btn-git-project"
